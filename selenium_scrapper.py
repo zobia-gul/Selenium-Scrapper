@@ -143,7 +143,7 @@ def scrape_site(start_url, driver, scraped_data):
 if __name__ == "__main__":
     start_urls = ["https://clouxiplexi.com/"]
     browser_choice = get_default_browser_name()
-    print(f"🚀 Using {browser_choice} for scraping\n")
+    print(f"🚀 Using {browser_choice} for scraping")
     
     driver = get_driver(browser_choice)
     scraped_data = {}
